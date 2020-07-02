@@ -23,6 +23,10 @@ h1 {
     font-size: 3rem;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
 header {
     background-color: var(--VeryPaleCyan);
     background-image: url('../images/bg-hero-desktop.svg');
@@ -82,3 +86,35 @@ header {
     height: 50rem;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem;
+}
+
+section {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 2px lightgray;
+    display: flex;
+    width: 125rem;
+    height: 45rem;
+    margin-bottom: 5rem;
+}
+
+section img {
+    width: 42rem;
+}
+
+section .content-container {
+    margin: 14rem;
+}
+
+section p {
+    color: var(--GrayishBlue);
+}
+
+#conversations {
+    flex-direction: row-reverse;
+}
