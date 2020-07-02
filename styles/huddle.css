@@ -165,12 +165,16 @@ footer li {
     margin: 1rem;
 }
 
-
+.copy {
+    margin-top: 16rem;
+    font-size: 1rem;
+}
 .attribution {
     font-size: 11px;
     text-align: center;
-    position: relative;
+    position: absolute;
     bottom: 0px;
+    
 }
 
 .attribution a {
