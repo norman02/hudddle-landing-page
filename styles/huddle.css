@@ -5,19 +5,80 @@
     --GrayishBlue: hsl(208, 11%, 55%);
 }
 
-html,
-body {
-    font-size: 10px;
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 1.8rem;
+    line-height: 1.5;
 }
 
 h1,
 h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    margin-bottom: 3rem;
 }
+
+h1 {
+    font-size: 3rem;
+}
+
+header {
+    background-color: var(--VeryPaleCyan);
+    background-image: url('../images/bg-hero-desktop.svg');
+    background-size: auto;
+    padding: 6rem;
+}
+
+.first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.logo {
+    width: 20rem;
+}
+
+.button {
+    display: flex;
+    background-color: var(--Pink);
+    width: 28rem;
+    height: 5.5rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px 2px rgba(200, 200, 200, 0.25);
+    margin: 3rem;
+}
+
+#try {
+    background-color:white;
+    color: black;
+}
+
+.second-child {
+    display: flex;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-container {
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mockups {
+    width: 70rem;
+    height: 50rem;
+}
+
