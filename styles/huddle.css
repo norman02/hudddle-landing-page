@@ -11,6 +11,7 @@ body {
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 1.5;
+    min-width: 375px;
 }
 
 h1,
@@ -147,4 +148,129 @@ section p {
 
 footer {
     background-color: var(--VeryDarkCyan);
+    padding: 20rem 0;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .content-container {
+    max-width: 50rem;
+}
+
+.contact td {
+    padding: 1rem;
+}
+
+footer li {
+    margin: 1rem;
+}
+
+.copy {
+    margin-top: 16rem;
+    font-size: 1rem;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+    main {
+        padding: 5px;
+        margin: 2%;
+    }
+
+    header {
+        background-image: url('../images/bg-hero-mobile.svg');
+    }
+
+    #try {
+        width: 20rem;
+    }
+
+
+    .second-child {
+        flex-direction: column;
+    }
+
+    #mockups {
+        width: 80%;
+        height: auto;
+    }
+
+    .content-container {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-container img {
+        width: 90%;
+    }
+
+ 
+    section,
+    #conversations {
+        margin-bottom: 5rem;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 80%;
+        height: auto;
+        font-size: 2rem;
+    }
+
+    section h2 {
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+    
+    section .content-container {
+        margin: 0px;
+    }
+
+    #buy-in {
+        width: 80%;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: left;
+        padding: 20rem 0px;
+    }
+
+    footer .content-container {
+        display: flex;
+        text-align: left;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+
+@media only screen and (max-width: 700px){
+    #buy-in h2 {
+        font-size: 2rem;
+    }
+
+    #buy-in .button {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .first-child {
+        flex-direction: column;
+    }
 }
