@@ -147,4 +147,32 @@ section p {
 
 footer {
     background-color: var(--VeryDarkCyan);
+    padding: 20rem 0;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .content-container {
+    max-width: 50rem;
+}
+
+.contact td {
+    padding: 1rem;
+}
+
+footer li {
+    margin: 1rem;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
