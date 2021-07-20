@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -18,5 +19,46 @@ body {
 
 ol, ul {
   list-style: none;
+}
+
+/* 
+OpenSans: regular, bold, 
+
+Poppins: regular, semiBold
+
+*/
+h1,
+h2 {
+  color: #00252e;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+a,
+li,
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+li {
+  color: white;
+  line-height: 1.5rem;
+}
+
+p {
+  color: #808d99;
+  line-height: 1.3125rem;
 }
 /*# sourceMappingURL=main.css.map */
