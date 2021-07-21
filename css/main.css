@@ -1,3 +1,4 @@
+/* scale for mobile layout */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;600&display=swap");
 * {
   margin: 0;
@@ -131,5 +132,85 @@ header .img-cont {
   height: 55.73vw;
   margin: 3.5rem auto 0 auto;
   width: 78.93vw;
+}
+
+.home {
+  text-align: center;
+}
+
+.home p {
+  margin: 0 16vw;
+}
+
+.home .img-cont {
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.home--A {
+  margin-top: 7.1875rem;
+}
+
+.home--A .img-cont {
+  background-image: url("../images/illustration-grow-together.svg");
+  height: 51.73333vw;
+  width: 62.93333vw;
+}
+
+.home--A h2 {
+  margin-top: 3rem;
+}
+
+.home--A p {
+  margin-top: 1.5rem;
+}
+
+.home--B {
+  margin-top: 8.7875rem;
+}
+
+.home--B .img-cont {
+  background-image: url("../images/illustration-flowing-conversation.svg");
+  height: 46.08vw;
+  width: 64.73067vw;
+}
+
+.home--B h2 {
+  margin-top: 4.1rem;
+}
+
+.home--B p {
+  margin-top: 1.125rem;
+}
+
+.home--C {
+  margin-top: 9.72875rem;
+}
+
+.home--C .img-cont {
+  background-image: url("../images/illustration-your-users.svg");
+  height: 49.32267vw;
+  width: 65.096vw;
+}
+
+.home--C h2 {
+  margin-top: 3.35375rem;
+}
+
+.home--C p {
+  margin-top: 1.5rem;
+}
+
+.home--CTA {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 14px #00000012;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 2.5625rem 0.75rem;
+}
+
+.home--CTA h2 {
+  margin-bottom: 1.8125rem;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,3 +1,8 @@
 @function toRem($pixel) {
     @return ($pixel/16) + rem;
 }
+
+/* scale for mobile layout */
+@function toMobile($pixel) {
+    @return ($pixel/375 * 100) + vw;
+}
