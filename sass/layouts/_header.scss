@@ -1,0 +1,30 @@
+header {
+
+    background-color: hsla(193, 100%, 96%, 1);
+    background-image: url('../images/bg-hero-mobile.svg');
+    background-size: cover;
+    padding-bottom: toRem(37);
+    text-align: center;
+
+    h1 {
+        margin: toRem(84) 12.8vw toRem(27) 12.8vw;
+    }
+
+    p {
+        color: $heading-txt-color;
+        font-size: toRem(16);
+        line-height: toRem(24);
+        margin: 0 9.6vw;
+        margin-bottom: toRem(48);
+    }
+
+    .img-cont {
+        background-image: url('../images/illustration-mockups.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 55.73vw;
+        margin: toRem(56) auto 0 auto;
+        width: 78.93vw;
+    }
+}

@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4.27vw;
+    padding-top: toRem(28);
+    .logo {
+        background-image: url('../images/logo.svg');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        height: toRem(16);
+        width: toRem(104);
+    }
+}

@@ -1,0 +1,44 @@
+/* 
+OpenSans: regular, bold, 
+
+Poppins: regular, semiBold
+
+*/ 
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+
+h1, 
+h2 {
+    color: $heading-txt-color;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: toRem(24);
+    line-height: toRem(36);
+}
+
+h2 {
+    font-size: toRem(20);
+    line-height: toRem(30);
+}
+
+a,
+li,
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: toRem(14);
+    font-weight: 400;
+}
+
+li {
+    color: $li-color;
+    line-height: toRem(24);
+}
+
+p {
+    color: $primary-txt-color;
+    line-height: toRem(21);
+}

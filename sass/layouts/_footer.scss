@@ -1,0 +1,59 @@
+.foot {
+    background-color: $footer-bg-color;
+    margin-top: toRem(-65);
+    padding: toRem(139) toMobile(16);
+
+    li {
+        line-height: toRem(24);
+        margin-bottom: toRem(24);
+    }
+
+    textarea {
+       height: toRem(26); 
+       margin-bottom: toRem(24);
+       resize: none;
+       width: toRem(167);
+    }
+
+    
+
+    &--A {
+        li {
+            padding-left: toRem(40);
+            background-repeat: no-repeat;
+            background-position: 0 toRem(8);
+        }
+
+        .address {
+            background-image: url('../images/icon-location.svg');    
+        }
+
+        .phone {
+            background-image: url('../images/icon-phone.svg');
+        }
+
+        .email {
+            background-image: url('../images/icon-email.svg');
+        }
+        
+    }
+
+    &--B {
+        margin-top: toRem(46);
+    }
+
+    &--D {
+        display: flex;
+        justify-content: space-between;
+        margin: toRem(38) auto toRem(26.23);
+        width: toRem(120);
+
+        img {
+            width: toRem(32)
+        }
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}

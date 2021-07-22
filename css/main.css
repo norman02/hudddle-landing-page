@@ -1,0 +1,272 @@
+/* scale for mobile layout */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+/* 
+OpenSans: regular, bold, 
+
+Poppins: regular, semiBold
+
+*/
+h1,
+h2 {
+  color: #00252e;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+a,
+li,
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+li {
+  color: white;
+  line-height: 1.5rem;
+}
+
+p {
+  color: #808d99;
+  line-height: 1.3125rem;
+}
+
+.btn {
+  background-color: white;
+  box-shadow: 0px 2px 7px #00000018;
+  font-weight: 700;
+}
+
+.btn--small {
+  border-radius: 12px;
+  font-size: 0.625rem;
+  padding: 0.25rem 1.375rem 0.375rem 1.4375rem;
+}
+
+.btn--large {
+  border-radius: 20px;
+  font-size: 0.75rem;
+  padding: 0.625rem 3.75rem 0.8125rem 3.75rem;
+}
+
+.btn--pink {
+  color: white;
+  background: #ff52bf;
+  box-shadow: 2px 3px 6px rgba(255, 82, 191, 0.16);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4.27vw;
+  padding-top: 1.75rem;
+}
+
+nav .logo {
+  background-image: url("../images/logo.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 1rem;
+  width: 6.5rem;
+}
+
+header {
+  background-color: #ebfbff;
+  background-image: url("../images/bg-hero-mobile.svg");
+  background-size: cover;
+  padding-bottom: 2.3125rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 5.25rem 12.8vw 1.6875rem 12.8vw;
+}
+
+header p {
+  color: #00252e;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0 9.6vw;
+  margin-bottom: 3rem;
+}
+
+header .img-cont {
+  background-image: url("../images/illustration-mockups.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 55.73vw;
+  margin: 3.5rem auto 0 auto;
+  width: 78.93vw;
+}
+
+.foot {
+  background-color: #00252e;
+  margin-top: -4.0625rem;
+  padding: 8.6875rem 4.26667vw;
+}
+
+.foot li {
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.foot textarea {
+  height: 1.625rem;
+  margin-bottom: 1.5rem;
+  resize: none;
+  width: 10.4375rem;
+}
+
+.foot--A li {
+  padding-left: 2.5rem;
+  background-repeat: no-repeat;
+  background-position: 0 0.5rem;
+}
+
+.foot--A .address {
+  background-image: url("../images/icon-location.svg");
+}
+
+.foot--A .phone {
+  background-image: url("../images/icon-phone.svg");
+}
+
+.foot--A .email {
+  background-image: url("../images/icon-email.svg");
+}
+
+.foot--B {
+  margin-top: 2.875rem;
+}
+
+.foot--D {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.375rem auto 1.63938rem;
+  width: 7.5rem;
+}
+
+.foot--D img {
+  width: 2rem;
+}
+
+.foot .copyright {
+  text-align: center;
+}
+
+.home {
+  text-align: center;
+}
+
+.home p {
+  margin: 0 16vw;
+}
+
+.home .img-cont {
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.home--A {
+  margin-top: 7.1875rem;
+}
+
+.home--A .img-cont {
+  background-image: url("../images/illustration-grow-together.svg");
+  height: 51.73333vw;
+  width: 62.93333vw;
+}
+
+.home--A h2 {
+  margin-top: 3rem;
+}
+
+.home--A p {
+  margin-top: 1.5rem;
+}
+
+.home--B {
+  margin-top: 8.7875rem;
+}
+
+.home--B .img-cont {
+  background-image: url("../images/illustration-flowing-conversation.svg");
+  height: 46.08vw;
+  width: 64.73067vw;
+}
+
+.home--B h2 {
+  margin-top: 4.1rem;
+}
+
+.home--B p {
+  margin-top: 1.125rem;
+}
+
+.home--C {
+  margin-top: 9.72875rem;
+}
+
+.home--C .img-cont {
+  background-image: url("../images/illustration-your-users.svg");
+  height: 49.32267vw;
+  width: 65.096vw;
+}
+
+.home--C h2 {
+  margin-top: 3.35375rem;
+}
+
+.home--C p {
+  margin-top: 1.5rem;
+}
+
+.home--CTA {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 14px #00000012;
+  border-radius: 15px;
+  display: inline-block;
+  margin-top: 9.6875rem;
+  padding: 2.5625rem 0.75rem;
+}
+
+.home--CTA h2 {
+  margin-bottom: 1.8125rem;
+}
+/*# sourceMappingURL=main.css.map */
