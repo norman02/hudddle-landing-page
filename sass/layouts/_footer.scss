@@ -3,6 +3,17 @@
     margin-top: toRem(-65);
     padding: toRem(139) toMobile(16);
 
+    a {
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
     li {
         line-height: toRem(24);
         margin-bottom: toRem(24);
@@ -48,8 +59,23 @@
         margin: toRem(38) auto toRem(26.23);
         width: toRem(120);
 
-        img {
-            width: toRem(32)
+        a {
+            &:focus {
+                svg {
+                    fill: hsla(322, 100%, 66%, 1);
+                }
+            }
+        }
+
+        svg {
+            @extend %transition-ease;
+            height: toRem(31);
+            width: toRem(31);
+            fill: white;
+
+            &:hover {
+                fill: hsla(322, 100%, 66%, 1);
+            }
         }
     }
 
