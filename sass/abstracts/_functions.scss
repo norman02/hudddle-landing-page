@@ -6,3 +6,8 @@
 @function toMobile($pixel) {
     @return ($pixel/375 * 100) + vw;
 }
+
+/* scale for large display layout */
+@function toLarge($pixel) {
+    @return ($pixel/1440 * 100) + vw;
+}

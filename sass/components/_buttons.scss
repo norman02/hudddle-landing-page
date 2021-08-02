@@ -16,13 +16,25 @@
     &--small {
         border-radius: 12px;
         font-size: toRem(10);
-        padding: toRem(4) toRem(22) toRem(6) toRem(23);        
+        padding: toRem(4) toRem(22) toRem(6) toRem(23);  
+        
+        @include media-lg {
+            border-radius: 24px;
+            font-size: toRem(14);
+            padding: toRem(13) toRem(64) toRem(16) toRem(65);
+        }
     }
 
     &--large {
         border-radius: 20px;
         font-size: toRem(12);
         padding: toRem(10) toRem(60) toRem(13) toRem(60);
+
+        @include media-lg {
+            border-radius: 28px;
+            font-size: toRem(14);
+            padding: toRem(17) toRem(69.5) toRem(20) toRem(70.5);
+        }
     }
 
     &--pink {

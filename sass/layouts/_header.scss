@@ -6,8 +6,39 @@ header {
     padding-bottom: toRem(37);
     text-align: center;
 
+    @include media-lg {
+        background-image: url('../images/bg-hero-desktop.svg');
+        column-gap: toRem(54);
+        display: grid;
+        padding-bottom: toRem(72);
+        grid-template-areas: 'A A' 'B C'
+    }
+
+    nav {
+        grid-area: A;
+    }
+
+    .txt-cont {
+        grid-area: B;
+
+        @include media-lg {
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: toLarge(80);
+            text-align: left;
+        }
+    }
+
     h1 {
         margin: toRem(84) 12.8vw toRem(27) 12.8vw;
+
+        @include media-lg {
+            margin: 0;
+            margin-bottom: toRem(38);
+            margin-top: toRem(86);
+        }
     }
 
     p {
@@ -16,6 +47,13 @@ header {
         line-height: toRem(24);
         margin: 0 9.6vw;
         margin-bottom: toRem(48);
+
+        @include media-lg {
+            font-size: toRem(18);
+            line-height: toRem(27);
+            margin: 0;
+            margin-bottom: toRem(33);
+        }
     }
 
     .img-cont {
@@ -23,8 +61,15 @@ header {
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
+        grid-area: C;
         height: 55.73vw;
         margin: toRem(56) auto 0 auto;
         width: 78.93vw;
+
+        @include media-lg {
+            height: toLarge(482);
+            width: toLarge(680);
+            margin: toRem(156) toLarge(90) 0 auto;
+        }
     }
 }

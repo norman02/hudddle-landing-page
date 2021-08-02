@@ -18,11 +18,21 @@ h2 {
 h1 {
     font-size: toRem(24);
     line-height: toRem(36);
+
+    @include media-lg {
+        font-size: toRem(40);
+        line-height: toRem(60);
+    }
 }
 
 h2 {
     font-size: toRem(20);
     line-height: toRem(30);
+
+    @include media-lg {
+        font-size: toRem(28);
+        line-height: toRem(42);
+    }
 }
 
 a,
@@ -31,6 +41,10 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-size: toRem(14);
     font-weight: 400;
+
+    @include media-lg {
+        font-size: toRem(18);
+    }
 }
 
 li {
@@ -41,4 +55,8 @@ li {
 p {
     color: $primary-txt-color;
     line-height: toRem(21);
+
+    @include media-lg {
+        line-height: toRem(27);
+    }
 }

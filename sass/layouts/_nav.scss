@@ -1,8 +1,12 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 4.27vw;
+    margin: 0 toMobile(16);
     padding-top: toRem(28);
+    @include media-lg {
+        padding-top: toRem(57);
+        margin: 0 toLarge(80);
+    }
     .logo {
         background-image: url('../images/logo.svg');
         background-position: center;
@@ -11,5 +15,9 @@ nav {
         display: inline-block;
         height: toRem(16);
         width: toRem(104);
+        @include media-lg {
+            height: toRem(31);
+            width: toRem(200);
+        }
     }
 }
