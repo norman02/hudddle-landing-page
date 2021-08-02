@@ -16,7 +16,13 @@
     &--small {
         border-radius: 12px;
         font-size: toRem(10);
-        padding: toRem(4) toRem(22) toRem(6) toRem(23);        
+        padding: toRem(4) toRem(22) toRem(6) toRem(23);  
+        
+        @include media-lg {
+            border-radius: 24px;
+            font-size: toRem(14);
+            padding: toRem(13) toRem(64) toRem(16) toRem(65);
+        }
     }
 
     &--large {
