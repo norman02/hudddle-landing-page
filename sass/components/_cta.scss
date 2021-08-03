@@ -8,7 +8,15 @@
         padding: toRem(41) toRem(12);
         text-align: center;
 
+        @include media-md {
+            padding: toRem(47) toRem(127) toRem(52) toRem(132);
+        }
+
         h2 {
             margin-bottom: toRem(29);
+
+            @include media-md {
+                margin-bottom: toRem(56);
+            }
         }
 }

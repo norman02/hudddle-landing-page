@@ -3,6 +3,17 @@
     margin-top: toRem(-65);
     padding: toRem(139) toMobile(16);
 
+    @include media-lg {
+        align-items: flex-start;
+        display: flex;
+        justify-content: space-between;
+        padding: toRem(144) toLarge(78) toRem(68) toLarge(120);
+        
+        section {
+            max-width: 400px;
+        }
+    }
+
     a {
         &:hover,
         &:focus {
@@ -51,6 +62,10 @@
 
     &--B {
         margin-top: toRem(46);
+
+        @include media-lg {
+            margin: 0;
+        }
     }
 
     &--D {
@@ -58,6 +73,11 @@
         justify-content: space-between;
         margin: toRem(38) auto toRem(26.23);
         width: toRem(120);
+
+        @include media-lg {
+            margin: 0;
+            
+        }
 
         a {
             &:focus {
@@ -81,5 +101,9 @@
 
     .copyright {
         text-align: center;
+
+        @include media-lg {
+            margin-top: toLarge(103);
+        }
     }
 }
