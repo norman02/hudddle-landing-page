@@ -45,7 +45,7 @@ h1 {
   line-height: 2.25rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   h1 {
     font-size: 2.5rem;
     line-height: 3.75rem;
@@ -57,7 +57,7 @@ h2 {
   line-height: 1.875rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   h2 {
     font-size: 1.75rem;
     line-height: 2.625rem;
@@ -72,7 +72,7 @@ p {
   font-weight: 400;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   a,
   li,
   p {
@@ -90,7 +90,7 @@ p {
   line-height: 1.3125rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   p {
     line-height: 1.6875rem;
   }
@@ -117,7 +117,7 @@ p {
   padding: 0.25rem 1.375rem 0.375rem 1.4375rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .btn--small {
     border-radius: 24px;
     font-size: 0.875rem;
@@ -131,7 +131,7 @@ p {
   padding: 0.625rem 3.75rem 0.8125rem 3.75rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .btn--large {
     border-radius: 28px;
     font-size: 0.875rem;
@@ -156,7 +156,7 @@ p {
   text-align: center;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
   .CTA {
     padding: 2.9375rem 7.9375rem 3.25rem 8.25rem;
   }
@@ -166,7 +166,7 @@ p {
   margin-bottom: 1.8125rem;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
   .CTA h2 {
     margin-bottom: 3.5rem;
   }
@@ -179,7 +179,7 @@ nav {
   padding-top: 1.75rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   nav {
     padding-top: 3.5625rem;
     margin: 0 5.55556vw;
@@ -196,7 +196,7 @@ nav .logo {
   width: 6.5rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   nav .logo {
     height: 1.9375rem;
     width: 12.5rem;
@@ -211,7 +211,7 @@ header {
   text-align: center;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   header {
     background-image: url("../images/bg-hero-desktop.svg");
     column-gap: 3.375rem;
@@ -229,7 +229,7 @@ header .txt-cont {
   grid-area: B;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   header .txt-cont {
     align-items: flex-start;
     display: flex;
@@ -244,7 +244,7 @@ header h1 {
   margin: 5.25rem 12.8vw 1.6875rem 12.8vw;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   header h1 {
     margin: 0;
     margin-bottom: 2.375rem;
@@ -260,7 +260,7 @@ header p {
   margin-bottom: 3rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   header p {
     font-size: 1.125rem;
     line-height: 1.6875rem;
@@ -280,7 +280,7 @@ header .img-cont {
   width: 78.93vw;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   header .img-cont {
     height: 33.47222vw;
     width: 47.22222vw;
@@ -292,6 +292,18 @@ header .img-cont {
   background-color: #00252e;
   margin-top: -4.0625rem;
   padding: 8.6875rem 4.26667vw;
+}
+
+@media screen and (min-width: 1200px) {
+  .foot {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    padding: 9rem 5.41667vw 4.25rem 8.33333vw;
+  }
+  .foot section {
+    max-width: 400px;
+  }
 }
 
 .foot a:hover, .foot a:focus {
@@ -336,11 +348,23 @@ header .img-cont {
   margin-top: 2.875rem;
 }
 
+@media screen and (min-width: 1200px) {
+  .foot--B {
+    margin: 0;
+  }
+}
+
 .foot--D {
   display: flex;
   justify-content: space-between;
   margin: 2.375rem auto 1.63938rem;
   width: 7.5rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .foot--D {
+    margin: 0;
+  }
 }
 
 .foot--D a:focus svg {
@@ -361,11 +385,17 @@ header .img-cont {
   text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .foot .copyright {
+    margin-top: 7.15278vw;
+  }
+}
+
 .home {
   text-align: center;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .home {
     text-align: left;
   }
@@ -375,7 +405,7 @@ header .img-cont {
   margin: 0 16vw;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .home p {
     margin: 0;
   }
@@ -387,13 +417,13 @@ header .img-cont {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .home .img-cont {
     margin: 0;
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .home section {
     align-items: center;
     column-gap: 12.86597vw;
@@ -408,7 +438,7 @@ header .img-cont {
   margin-top: 7.1875rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .home--A {
     padding-top: 10rem;
     grid-template-areas: 'B A';
@@ -422,7 +452,7 @@ header .img-cont {
   grid-area: A;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .home--A .img-cont {
     height: 23.07569vw;
     width: 28.22708vw;
@@ -434,7 +464,7 @@ header .img-cont {
   grid-area: B;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .home--A h2 {
     margin: 0;
   }
@@ -449,7 +479,7 @@ header .img-cont {
   margin-top: 8.7875rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .home--B {
     padding-top: 6.92625rem;
   }
@@ -461,7 +491,7 @@ header .img-cont {
   width: 64.73067vw;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .home--B .img-cont {
     height: 20.63889vw;
     width: 29.02361vw;
@@ -472,7 +502,7 @@ header .img-cont {
   margin-top: 4.1rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .home--B h2 {
     margin: 0;
   }
@@ -486,7 +516,7 @@ header .img-cont {
   margin-top: 9.72875rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .home--C {
     padding-top: 6.35rem;
     grid-template-areas: 'B A';
@@ -500,7 +530,7 @@ header .img-cont {
   grid-area: A;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .home--C .img-cont {
     height: 22.07639vw;
     width: 29.18056vw;
@@ -512,7 +542,7 @@ header .img-cont {
   margin-top: 3.35375rem;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .home--C h2 {
     margin: 0;
   }
