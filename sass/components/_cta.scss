@@ -1,0 +1,14 @@
+.CTA {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 14px #00000012;
+        border-radius: 15px; 
+        display: inline-block;
+        margin: 0 auto;
+        margin-top: toRem(155);
+        padding: toRem(41) toRem(12);
+        text-align: center;
+
+        h2 {
+            margin-bottom: toRem(29);
+        }
+}
