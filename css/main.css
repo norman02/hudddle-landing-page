@@ -156,8 +156,20 @@ p {
   text-align: center;
 }
 
+@media screen and (min-width: 500px) {
+  .CTA {
+    padding: 2.9375rem 7.9375rem 3.25rem 8.25rem;
+  }
+}
+
 .CTA h2 {
   margin-bottom: 1.8125rem;
+}
+
+@media screen and (min-width: 500px) {
+  .CTA h2 {
+    margin-bottom: 3.5rem;
+  }
 }
 
 nav {
